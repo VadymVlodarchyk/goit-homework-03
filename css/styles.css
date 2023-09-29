@@ -18,7 +18,7 @@ img {display: block;}
 a  {text-decoration: none;}
 
 .container {
-    width: 1158px;
+    width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -122,6 +122,11 @@ a  {text-decoration: none;}
     padding-top: 188px;
     padding-bottom: 188px;
     }
+.hero-container {
+    display: flex;
+    justify-content: center;
+
+}
 
 .hero-title {
     text-align: center;
@@ -133,8 +138,10 @@ a  {text-decoration: none;}
     letter-spacing: 0.02em;
     width: 496px;
     height: 120px;
-    margin-left: 316px;
-    margin-bottom: 48px;
+    }
+
+    .button {
+        
     }
 
 .oder-servise-btn {
