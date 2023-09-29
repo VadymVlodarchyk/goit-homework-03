@@ -46,7 +46,7 @@ a  {text-decoration: none;}
 .header-navigation-link {
     margin-right: 76px;}
 
-.header-list:not(:last-child) 
+.header-list-item:not(:last-child) 
     {margin-right: 40px;}
 
         
