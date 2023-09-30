@@ -20,8 +20,8 @@ a  {text-decoration: none;}
 .container {
     width: 1158px;
     margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     }
 
 /* a {text-decoration: none;} */
@@ -73,6 +73,8 @@ a  {text-decoration: none;}
                 
 .header-container {
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-navigation {display: flex;
