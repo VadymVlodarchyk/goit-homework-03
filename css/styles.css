@@ -31,9 +31,10 @@ a  {text-decoration: none;}
 
 
 /* =========================HEDER========================*/
-.header {padding-top: 25px;
-        padding-bottom: 25px;
-        border-bottom: 1px solid #e7e9fc;}
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e7e9fc;}
         
 .header-navigation-link {color: #4D5AE5;
     font-size: 18px;
@@ -68,7 +69,12 @@ a  {text-decoration: none;}
 
 .header-list {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
+.visually-hidden { display: none;
+
+}
 
 .header-container {
     padding-top: 24px;
@@ -276,6 +282,7 @@ a  {text-decoration: none;}
 
 .our-team-item:not(:last-child) {
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -336,6 +343,7 @@ a  {text-decoration: none;}
     .text-container {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
+        border-top: none;
     }
 
 /* =====================================================*/
