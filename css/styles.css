@@ -20,7 +20,8 @@ a  {text-decoration: none;}
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+   padding-left: 15px;
+   padding-right: 15px;
     }
 
 /* a {text-decoration: none;} */
@@ -34,7 +35,10 @@ a  {text-decoration: none;}
     padding-top: 25px;
     padding-bottom: 25px;
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px}
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
         
 .header-navigation-link {color: #4D5AE5;
     font-size: 18px;
@@ -69,8 +73,6 @@ a  {text-decoration: none;}
                 
 .header-container {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px
 }
 
 .header-navigation {display: flex;
