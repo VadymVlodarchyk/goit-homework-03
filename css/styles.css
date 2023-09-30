@@ -51,6 +51,11 @@ a  {text-decoration: none;}
 .header-list-item:not(:last-child) 
     {margin-right: 40px;}
 
+.header-list-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
         
 .header-link-studio {
     color: #2E2F42;
@@ -62,15 +67,18 @@ a  {text-decoration: none;}
     letter-spacing: 0.03em;
     }
                 
-.header-container {display: flex;}
+.header-container {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px
+}
 
 .header-navigation {display: flex;
     align-items: center;}
 
 .header-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     }
 .visually-hidden { display: none;
 
