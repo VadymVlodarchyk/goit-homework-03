@@ -50,6 +50,13 @@ a  {text-decoration: none;}
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+    display: flex;
+}
+
+.header-navigation {
+    align-items: center;
+}
         
 .header-navigation-link {color: #4D5AE5;
     font-size: 18px;
@@ -58,17 +65,18 @@ a  {text-decoration: none;}
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .header-navigation-link {
     margin-right: 76px;
+
 }
 
 .header-list-item:not(:last-child) {
     margin-right: 40px;
     }
-
-
 
         
 .header-link-studio {
@@ -81,9 +89,6 @@ a  {text-decoration: none;}
     letter-spacing: 0.03em;
     }
                 
-.header-container {
-    display: flex;
-}
 
 .header-navigation {
     display: flex;
@@ -94,8 +99,6 @@ a  {text-decoration: none;}
     display: flex;
 }
 
-
-
 .header-list-link {
     color: #2E2F42;
     font-size: 16px;
@@ -103,6 +106,8 @@ a  {text-decoration: none;}
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
                     
 .header-list-link:hover,:focus {
@@ -112,8 +117,9 @@ a  {text-decoration: none;}
 
 .adress {
     font-style: normal;
-    display: flex;
     margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .adress-list {
@@ -132,6 +138,8 @@ a  {text-decoration: none;}
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .adress-contact-link:hover, :focus {
