@@ -19,9 +19,9 @@ a  {text-decoration: none;}
 
 .container {
     width: 1158px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
     }
 
 /* a {text-decoration: none;} */
@@ -55,7 +55,10 @@ a  {text-decoration: none;}
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
+.container-header-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
         
 .header-link-studio {
     color: #2E2F42;
