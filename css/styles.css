@@ -73,13 +73,16 @@ a  {text-decoration: none;}
     display: flex;
 }
 
-.header-navigation {display: flex;
-    align-items: center;}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
 
 .header-list {
     display: flex;
-    
-    }
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -94,13 +97,6 @@ a  {text-decoration: none;}
     overflow: hidden;
 }
 
-.header-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}            
-
-
-                                
 .header-list-link {
     color: #2E2F42;
     font-size: 16px;
@@ -109,10 +105,11 @@ a  {text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;}
                     
-.header-list-link:hover {color: #404bbf;}
-.header-list-link:focus {color: #404bbf;}
+.header-list-link:hover,:focus {
+    color: #404bbf;
+}
 
-            
+
 .adress {
     font-style: normal;
     display: flex;
