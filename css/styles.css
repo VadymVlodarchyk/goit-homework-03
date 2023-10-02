@@ -46,8 +46,8 @@ a  {text-decoration: none;}
 
 /* =========================HEDER========================*/
 .header {
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
+    /* padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc; */
 }
 
 .header-container {
@@ -305,6 +305,9 @@ a  {text-decoration: none;}
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
 }
+.our-team-item{
+    background-color: white;
+}
 
 
 
@@ -357,7 +360,6 @@ a  {text-decoration: none;}
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
     }
 
@@ -415,7 +417,7 @@ a  {text-decoration: none;}
     word-wrap: break-word;
     background-color: #2E2F42;
     width: 264px;
-    padding-top: 17.5px;}
+    }
 
 
 /* =====================================================*/
